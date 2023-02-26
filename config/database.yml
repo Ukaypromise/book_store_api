@@ -93,16 +93,16 @@ development:
   database: book_store_api_developmentt
   pool: 5
   host: localhost
-  username: postgres
-  password: 5632
+  username: promise
+  password: promise
 
 test:
   adapter: postgresql
   encoding: unicode
   database: book_store_api_test
   pool: 5
-  username: postgres
-  password: 5632
+  username: promise
+  password: promise
 
 staging:
   url: <%= ENV['DATABASE_URL'] %>
