@@ -4,6 +4,7 @@ class BooksController < ApplicationController
   end
 
   def create
+    #book = Book.new(book_params)
     render json: Book.create(book_params)
   end
 
